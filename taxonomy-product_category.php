@@ -64,22 +64,5 @@
         ?>
         </div>
     </main>
-
-<!--       <div class="rounded-xl overflow-hidden bg-white">
-            <?php the_post_thumbnail()?>
-            <h3><?php the_title()?></h3>
-            <?php $terms = get_the_terms( get_the_ID(), 'product_category' );
-            if ($terms[0])
-              echo "<div class='text-gray-400'>".$terms[0]->name."</div>";
-            ?>
-            <?php $price = get_post_meta(get_the_ID(),'price',true)?>
-            <?php $oldPrice = get_post_meta(get_the_ID(),'old_price',true)?>
-            <div class="flex gap-1">
-              <div><?=number_format($price)?></div>
-              <div class="line-through" ><?=number_format($oldPrice)?></div>
-            </div>
-            <div>
-              <a href="<?php the_permalink()?>">product details</a> 
-            </div> -->
           </div>
 <?php get_footer();?>

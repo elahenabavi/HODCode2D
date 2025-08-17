@@ -54,16 +54,9 @@
         
         ?>
        
-
-   <!--    <ul class="flex my-auto text-md text-gray-500 ">
-            <li class="mr-4">خانه</li>
-            <li class="mr-6">محصولات</li>
-        <ul> -->
-      
     </div>
         <div class="flex">
             <ul class="flex my-auto text-md text-gray-500">
-           <!--  <li class="ml-5">ارتباط با ما</li> -->
             <li class=" text-red-300">
               <img src="<?php echo get_template_directory_uri();?>/img/trolleygray1.png" alt="shop" class="w-6 absolute">
               <span class="relative bg-red-500 w-4.5 h-4.5 rounded-full text-[10px] text-gray-100 grid bottom-2.5 left-2"><p class="place-self-center">1</p></span>
@@ -74,54 +67,3 @@
     </header>
 
 
-
-   <!--  <header class="bg-white border-b-1 border-slate-300">
-    <div class="max-w-screen-lg mx-auto flex py-2 justify-between">
-        <div class="flex">
-        <div class="w-13 ">
-        <?php 
-        if(function_exists("the_custom_logo")){
-            the_custom_logo();
-        }
-        ?>
-        </div>
-        <ul class="flex my-auto text-md text-gray-500 ">
-            <li class="mr-4">خانه</li>
-            <li class="mr-6">محصولات</li>
-        <ul>
-        </div>
-        <div class="flex">
-            <ul class="flex my-auto text-md text-gray-500">
-            <li class="ml-5">ارتباط با ما</li>
-            <li class=" text-red-300 ml-5.5">
-              <img src="<?php echo get_template_directory_uri();?>/img/trolleygray1.png" alt="shop" class="w-6 absolute">
-     
-            </li>
-        </ul>
-        </div>
-    </div>
-    </header>
-    -->
-
-        <!--      <span class="relative bg-red-500 w-4.5 h-4.5 rounded-full text-[10px] text-gray-100 grid bottom-2.5 left-2"><p class="place-self-center">1</p></span> -->
-<!-- هدر رو میتوان به دو صورت نوشت فکر کنم کدی که کامنت کردم چون با اضافه کردن یک ایتم به هم میخوره ممکنه جالب نباشه اما در کل تعداد خط کدهاش خیلی کمتره چون فقط از مارجین استفاده کرده -->
-<!--    <header class="bg-white border-b-1 border-slate-300">
-    <div class="max-w-screen-lg mx-auto flex py-2">
-        <div class="w-13 ">
-        <?php 
-        if(function_exists("the_custom_logo")){
-            the_custom_logo();
-        }
-        ?>
-        </div>
-        <ul class="flex my-auto text-md text-gray-500 ">
-            <li class="mr-4">خانه</li>
-            <li class="mr-6">محصولات</li>
-            <li class="mr-183">ارتباط با ما</li>
-            <li class="mr-6 text-red-300 ">
-              <img src="<?php echo get_template_directory_uri();?>/img/trolleygray1.png" alt="shop" class="w-6 absolute">
-              <span class="relative bg-red-500 w-4.5 h-4.5 rounded-full text-[10px] text-gray-100 grid bottom-2.5 left-2"><p class="place-self-center">1</p></span>
-            </li>
-        </ul>
-    </div>
-    </header> -->
