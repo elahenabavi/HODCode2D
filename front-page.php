@@ -36,9 +36,14 @@
         </div>
         <div class="bg-zinc-50 w-82 h-49 rounded-b-lg ">
         <p class="Vazirmatn-bold font-semibold pt-3 pr-3"><?php the_title()?></p>
-        <?php $terms = get_the_terms( get_the_ID(), 'product_category' );
-            if ($terms[0])
-              echo "<p class='font-thin text-sm pt-3 pr-3 text-sky-700'>".$terms[0]->name."</p>";
+       <?php $terms = get_the_terms( get_the_ID(), 'product_category' );
+            if ($terms && !is_wp_error($terms)){
+              foreach($terms as $term){
+                if($term->slug!='all-products'){
+                    echo "<p class='font-thin text-sm pt-3 pr-3 text-sky-700'>".$term->name."</p>";
+                }
+              }
+            }    
         ?>
         <div class="flex mt-5"dir="ltr">
         <?php $price = get_post_meta(get_the_ID(),'price',true)?>
